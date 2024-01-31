@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventas</title>
+  </head>
+  <body>
+    <script src="./main/main.js"></script>
+
+    <div id="carro">
+      <h2>Selecciona un producto:</h2>
+
+      <label for="productos">Productos:</label>
+      <select id="productos"></select>
+
+      <button onclick="agregarProducto()">Agregar al carrito</button>
+
+      <h2>Carrito de compras:</h2>
+      <ul id="carrito"></ul>
+
+      <button onclick="finalizarCompra()">Finalizar compra</button>
+    </div>
+  </body>
+</html>
