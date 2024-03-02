@@ -1,0 +1,76 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,400&family=Mulish&display=swap");
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Main*/
+.banner {
+  text-align: center;
+  background-image: url(../imagenes/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 1px 1px 25px rgb(0, 0, 0);
+  color: #eeeeee;
+  padding: 180px;
+}
+.titulobanner {
+  font-size: 5rem;
+}
+
+.textobanner {
+  font-size: 3rem;
+}
+.imagenespublicitarias {
+  display: flex;
+  padding: 120px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.primeraimagen {
+  height: 200px;
+}
+
+.segundaimagen {
+  height: 200px;
+}
+
+Footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .redessociales {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .redessociales img {
+  width: 40px;
+}
+footer .redessociales .logoinstagram {
+  padding-top: 50%;
+}
+footer .redessociales .logoyoutube {
+  padding-top: 50%;
+}
+
+/*Productos*/
+
+.tituloproductos {
+  text-align: center;
+  font-size: 4rem;
+  padding: 80px;
+}
