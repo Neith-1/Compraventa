@@ -1,11 +1,10 @@
-// Productos
-const productos = [
-  { id: 1, nombre: "Cerveza Amber Ale", precio: 1500 },
-  { id: 2, nombre: "Cerveza Golden Ale", precio: 1000 },
-  { id: 3, nombre: "Cerveza American Brown Ale", precio: 2000 },
-];
 
-// Llenar el selector con opciones de productos
+/* Productos*/
+
+const jsonData = require(./productos.json);
+console.log(jsonData);
+
+// Usuario llena el selector con opciones de productos
 function llenarSelector() {
   let selector = document.getElementById("productos");
 
@@ -17,7 +16,7 @@ function llenarSelector() {
   });
 }
 
-// Agregar producto al carrito
+// Usuario agrega producto al carrito
 function agregarProducto() {
   let selector = document.getElementById("productos");
   let productoSeleccionadoId = parseInt(selector.value);
@@ -49,7 +48,7 @@ function actualizarTotal() {
   }
 
   document.getElementById("total").textContent = total;
-}
+}*/
 
 // Finalizar compra
 function finalizarCompra() {
@@ -69,6 +68,7 @@ function finalizarCompra() {
 // Proceso de pago
 function envioPago() {
   alert("Compra finalizada. Gracias por tu compra!");
+  
   location.reload(); // Recargar la página para reiniciar el carrito
 }
 

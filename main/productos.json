@@ -1,0 +1,5 @@
+[
+    { "id": 1, "nombre": "Cerveza Amber Ale", "precio": 1500},
+    { "id": 2, "nombre": "Cerveza Lager", "precio": 1000},
+    { "id": 3, "nombre": "Cerveza Golden Strong", "precio": 2000}
+]
